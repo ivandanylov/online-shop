@@ -32,7 +32,7 @@ public class ProductsServlet extends HttpServlet {
                 }
             }
         }
-        isAuth = true;
+        isAuth = true; //need to remove
         if (isAuth) {
             PageGenerator pageGenerator = PageGenerator.instance();
             List<Product> products = productService.getAll();
