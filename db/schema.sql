@@ -6,5 +6,10 @@ CREATE TABLE product
     price real
 )
 
-ALTER TABLE product
-    OWNER to postgres;
+CREATE TABLE users
+(
+    id SERIAL PRIMARY KEY  NOT NULL,
+    login text,
+    password text,
+    role text
+)

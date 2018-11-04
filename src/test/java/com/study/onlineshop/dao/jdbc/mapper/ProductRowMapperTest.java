@@ -34,6 +34,4 @@ public class ProductRowMapperTest {
         assertEquals(expectedDate, actualProduct.getCreationDate());
         assertEquals(2000.50, actualProduct.getPrice(), 0.0001);
     }
-
-
 }

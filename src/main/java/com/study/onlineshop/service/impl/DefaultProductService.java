@@ -17,4 +17,9 @@ public class DefaultProductService implements ProductService {
     public List<Product> getAll() {
         return productDao.getAll();
     }
+
+    @Override
+    public Product addProduct(Product product) {
+        return productDao.addProduct(product);
+    }
 }

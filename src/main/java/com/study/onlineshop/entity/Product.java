@@ -1,5 +1,6 @@
 package com.study.onlineshop.entity;
 
+import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
 public class Product {
